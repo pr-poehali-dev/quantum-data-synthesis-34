@@ -43,7 +43,7 @@ export default function Section({ id, title, subtitle, content, isActive, showBu
           <Button
             variant="outline"
             size="lg"
-            className="text-[#FF4D00] bg-transparent border-[#FF4D00] hover:bg-[#FF4D00] hover:text-black transition-colors"
+            className="text-[#00C9FF] bg-transparent border-[#00C9FF] hover:bg-[#00C9FF] hover:text-black transition-colors"
           >
             {buttonText}
           </Button>

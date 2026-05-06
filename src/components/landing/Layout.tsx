@@ -13,9 +13,14 @@ export default function Layout({ children }: LayoutProps) {
           direction="diagonal"
           speed={0.5}
           squareSize={40}
-          borderColor="#333"
-          hoverFillColor="#222"
+          borderColor="#1a1a2e"
+          hoverFillColor="#0d1b2a"
         />
+      </div>
+      <div className="fixed top-0 left-0 z-30 p-6">
+        <span className="text-white font-bold text-lg tracking-wide">
+          <span className="text-[#00C9FF]">Интернет</span> Цапля
+        </span>
       </div>
       <div className="relative z-20 h-full">
         {children}
